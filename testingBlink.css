@@ -1,0 +1,33 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+			var shadowOn=true;
+			function gameOver(){
+				//alert('Here');
+				document.getElementById("gameOver").style.display="block";
+				window.setInterval(function() {toggleShadow()},1000);
+			} 
+			function toggleShadow(){
+				if(shadowOn==true){
+					shadowOn=false;
+					document.getElementById("gameOver").style="text-shadow: 0px 0px";
+				}
+				else{
+					shadowOn=true;
+					document.getElementById('gameOver').style="text-shadow: 4px 4px red";
+
+				}
+			}
+		</script>
+</head>
+<body>
+	<div onmouseover="gameOver()">
+		BLINK SWAG
+	</div>
+
+</body>
+</html>
+
+	

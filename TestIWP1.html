@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<style type="text/css">
+		#Body{
+			background: red;
+		}
+		#restricted{
+			width: 50%;
+			height: 50%;
+			background: blue;
+		}
+		#gameOver{
+			background: blue;
+			text-align: center;
+			float:right;
+			margin-top: 20px;
+			display: none;
+			color: white;
+			font-size: 46;
+			text-shadow: 10px 2px darkred;
+		}
+
+		</style>
+		<script type="text/javascript">
+			var shadowOn=true;
+			function gameOver(){
+				//alert('Here');
+				document.getElementById("gameOver").style.display="block";
+				window.setInterval(function() {toggleShadow()},10);
+			} 
+			function toggleShadow(){
+				if(shadowOn==true){
+					shadowOn=false;
+					document.getElementById("gameOver").style.textShadow="0px 0px red";
+					document.getElementById('gameOver').style.background="blue";
+					document.getElementById('Body1').style.background="yellow";
+
+
+				}
+				else{
+					shadowOn=true;
+					document.getElementById('gameOver').style.textShadow="5px 4px red";
+					document.getElementById('gameOver').style.background="yellow";
+					document.getElementById('Body1').style.background="blue";
+
+				}
+			}
+		</script>
+	</head>
+	<body id='Body1'>
+		<div id='restricted' onmouseover="gameOver()">
+		Restricted Area
+		</div>
+		<div id="gameOver">
+			GO GO GO
+		</div>
+		<div id='trip'>
+			TRIPPPYYYYYYY 
+		</div>
+	</body>
+</html>

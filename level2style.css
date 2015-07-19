@@ -1,0 +1,179 @@
+#l2r1{
+height:50%;
+width:40%;
+background-color:blue;
+float:left;
+}
+
+#l2r2{
+height: 39%;
+  margin-top: 20px;
+  width: 296px;
+  background-color: blue;
+}
+
+.main{
+height:500px;
+width:600px;
+background-color:#efefef;
+}
+
+.main2{
+height:500px;
+width:600px;
+
+background-color:#efefef;
+}
+
+#contain{
+height:60%;
+width:55%;
+float:right;
+}
+
+#st2{
+background-color: green;
+  width: 30;
+  height: 51px;
+  margin-top: 250px;
+}
+
+#fi2{
+background-color: red;
+  height: 24px;
+  width: 23px;
+  margin-top: -111px;
+  margin-left: 301px;
+}
+
+#l2r3{
+height: 38%;
+  margin-top: 34%;
+  background-color: blue;
+  width: 300px;
+}
+
+#l2r4{
+height: 40%;
+  margin-top: 0px;
+  background-color: blue;
+}
+
+#l6r1{
+height:10%;
+background-color:blue;
+}
+
+#l6r2{
+height:36%;
+background-color:blue;
+width:15%;
+margin-top:20px;
+float:left;
+}
+
+#l6r3{
+height:18%;
+width:25%;
+background-color:blue;
+margin-left:35px;
+float:left;
+margin-top:23px;
+}
+
+#l6r4{
+height:24%;
+width:15%;
+float:left;
+margin-top:23px;
+background-color:blue;
+margin-left:35px;
+}
+
+#l6r5{
+width:10%;
+height:40%;
+background-color:blue;
+margin-left:50px;
+float:left;
+}
+
+#l6r6{
+width: 47%;
+  height: 10%;
+  background-color: blue;
+  margin-top: 142px;
+  margin-left: 135px;
+}
+
+#l6r7{
+height: 27%;
+  width: 34%;
+  background-color: blue;
+  margin-top: 44px;
+  float:left;
+}
+
+#l6r8{
+width: 10%;
+  height: 48%;
+  background-color: blue;
+  margin-left: 30px;
+  float: left;
+  margin-top: -8px;
+}
+
+#l6r9{
+width: 17%;
+  height: 25%;
+  background-color: blue;
+  margin-left: 32px;
+  float: left;
+  margin-top: 46px;
+}
+
+#l6r10{
+width: 10%;
+  height: 39%;
+  background-color: blue;
+  margin-left: 22px;
+  float: left;
+  margin-top: 11px;
+}
+
+#l6r11{
+width: 5%;
+  height: 34%;
+  background-color: blue;
+  margin-left: 31px;
+  float: left;
+  margin-top: -83px;
+}
+
+#l6r13{
+width:29px;
+height:4%;
+float:left;
+background-color:blue;
+}
+
+#l6r12{
+height: 5%;
+  background-color: blue;
+  margin-top: 0px;
+}
+
+#st{
+background-color: green;
+height: 47px;
+  width: 33px;
+  margin-top: 164px;
+  }
+  
+#fi{
+background-color:red;
+height:23px;
+width:23px;
+margin-left: 574px;
+margin-bottom: 4px;
+}

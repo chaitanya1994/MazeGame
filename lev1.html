@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Level 1</title>
+	<link rel="stylesheet" href="maze.css" />
+	</head>
+	
+<body>
+<div id="main" onmouseover="gameOver()">
+<div id="l1r1" onmouseover="gameOver()"></div>
+<div id="l1r2" onmouseover="gameOver()"></div>
+<div id="l1r3" onmouseover="s()"></div>
+<div id="l1r4" onmouseover="finishLevel()"></div>
+
+</div>
+<script type="javaScript">
+		 var shadowOn=true;
+	var gameOn=false;
+			function gameOver(){
+
+				if(gameOn==false){
+					return;
+				}
+				gameOn=false;
+				 window.parent.document.getElementById("gameMessages").innerHTML="Game Over";
+				 window.setInterval(function() {toggleShadow()},100);
+			} 
+			function toggleShadow(){
+				if(shadowOn==true){
+					shadowOn=false;
+
+				window.parent.document.getElementById('gameMessages').style.textShadow="5px 4px blue";
+				window.parent.document.getElementById('gameMessages').style.background="blue";
+
+
+				}
+				else{
+					shadowOn=true;
+					window.parent.document.getElementById('gameMessages').style.textShadow="5px 4px red";
+					window.parent.document.getElementById('gameMessages').style.background="yellow";
+
+				}
+			}
+			function finishLevel(){
+				if(gameOn==false){
+					return;
+				}
+				gameOn=false;
+					window.parent.document.getElementById('gameFrame').src='lev3.html';
+				}
+			function startLevel(){
+				alert('chal jaa bc');
+				gameOn=true;
+								 window.parent.document.getElementById("gameMessages").innerHTML="Game Started";
+
+			}
+</script>
+</body>
+</html>
+	
+	

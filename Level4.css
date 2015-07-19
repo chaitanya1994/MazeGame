@@ -1,0 +1,22 @@
+.Restricted{
+		margin-bottom: 30px;
+		background: blue;
+		height: 15%;
+		width:90%;
+	}
+	#L5R2,#L5R4{
+		margin-left: 10%;
+	}
+	.finishL4{
+		float:right;
+		background-color: red;
+		height: 5%;
+		width:10%;
+	}
+	.startL4{
+		margin-top: -30px;
+		float: left;
+		background: green;
+		height: 9%;
+		width: 3%;
+	}
